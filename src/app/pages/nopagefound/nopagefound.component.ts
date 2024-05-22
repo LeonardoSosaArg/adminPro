@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NopagefoundComponent {
 
+  currentYear = new Date().getFullYear();
+
+  constructor(){
+
+  }
+
 }
