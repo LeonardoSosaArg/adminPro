@@ -16,7 +16,13 @@ import { ComponentsModule } from '../components/components.module';
     Grafica1Component,
     PagesComponent
   ],
-  imports: [CommonModule, SharedModule, RouterModule, FormsModule, ComponentsModule],
+  imports: [
+    CommonModule,
+    SharedModule,
+    RouterModule,
+    FormsModule,
+    ComponentsModule
+  ],
   exports: [
     DashboardComponent,
     ProgressComponent,
